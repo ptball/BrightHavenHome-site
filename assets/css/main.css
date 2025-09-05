@@ -357,7 +357,8 @@ h6 {
     margin: 0;
     border-radius: 0;  /* optional, cleaner for fullscreen */
     background-color: var(--nav-mobile-background-color);
-    overflow-y: auto;
+    overflow-y: visible;
+    /* overflow-y: auto; */
     transition: 0.2s ease-in-out;
     z-index: 9998;
     box-shadow: none;
