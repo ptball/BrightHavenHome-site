@@ -1189,13 +1189,13 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Services Section
+# programs Section
 --------------------------------------------------------------*/
-.services .services-container {
+.programs .programs-container {
   margin-bottom: 60px;
 }
 
-.services .services-container .service-item {
+.programs .programs-container .service-item {
   display: flex;
   background-color: var(--surface-color);
   border-radius: 16px;
@@ -1206,25 +1206,25 @@ section,
   height: 100%;
 }
 
-.services .services-container .service-item:hover {
+.programs .programs-container .service-item:hover {
   transform: translateY(-8px);
   box-shadow: 0 15px 40px color-mix(in srgb, var(--accent-color), transparent 85%);
 }
 
-.services .services-container .service-item:hover .service-icon {
+.programs .programs-container .service-item:hover .service-icon {
   background-color: var(--accent-color);
   color: var(--contrast-color);
 }
 
-.services .services-container .service-item:hover .service-link {
+.programs .programs-container .service-item:hover .service-link {
   color: var(--accent-color);
 }
 
-.services .services-container .service-item:hover .service-link i {
+.programs .programs-container .service-item:hover .service-link i {
   transform: translateX(5px);
 }
 
-.services .services-container .service-item .service-icon {
+.programs .programs-container .service-item .service-icon {
   flex: 0 0 90px;
   display: flex;
   align-items: center;
@@ -1235,12 +1235,12 @@ section,
   transition: all 0.1s ease;
 }
 
-.services .services-container .service-item .service-content {
+.programs .programs-container .service-item .service-content {
   padding: 30px;
   position: relative;
 }
 
-.services .services-container .service-item .service-number {
+.programs .programs-container .service-item .service-number {
   position: absolute;
   top: 20px;
   right: 20px;
@@ -1252,7 +1252,7 @@ section,
   z-index: 1;
 }
 
-.services .services-container .service-item .service-title {
+.programs .programs-container .service-item .service-title {
   font-size: 1.4rem;
   font-weight: 700;
   margin-bottom: 15px;
@@ -1261,7 +1261,7 @@ section,
   z-index: 2;
 }
 
-.services .services-container .service-item .service-text {
+.programs .programs-container .service-item .service-text {
   font-size: 0.95rem;
   line-height: 1.7;
   margin-bottom: 20px;
@@ -1270,7 +1270,7 @@ section,
   z-index: 2;
 }
 
-.services .services-container .service-item .service-link {
+.programs .programs-container .service-item .service-link {
   display: inline-flex;
   align-items: center;
   gap: 8px;
@@ -1282,11 +1282,11 @@ section,
   z-index: 2;
 }
 
-.services .services-container .service-item .service-link i {
+.programs .programs-container .service-item .service-link i {
   transition: transform 0.1s ease;
 }
 
-.services .cta-wrapper .cta-box {
+.programs .cta-wrapper .cta-box {
   background: linear-gradient(135deg, color-mix(in srgb, var(--accent-color), transparent 15%), color-mix(in srgb, var(--accent-color), transparent 5%));
   border-radius: 20px;
   padding: 40px;
@@ -1295,7 +1295,7 @@ section,
   box-shadow: 0 15px 40px color-mix(in srgb, var(--default-color), transparent 85%);
 }
 
-.services .cta-wrapper .cta-box::before {
+.programs .cta-wrapper .cta-box::before {
   content: "";
   position: absolute;
   top: 0;
@@ -1308,12 +1308,12 @@ section,
   z-index: 1;
 }
 
-.services .cta-wrapper .cta-box .cta-image {
+.programs .cta-wrapper .cta-box .cta-image {
   position: relative;
   z-index: 2;
 }
 
-.services .cta-wrapper .cta-box .cta-image img {
+.programs .cta-wrapper .cta-box .cta-image img {
   width: 150px;
   height: 150px;
   object-fit: cover;
@@ -1322,31 +1322,31 @@ section,
 }
 
 @media (max-width: 991px) {
-  .services .cta-wrapper .cta-box .cta-image img {
+  .programs .cta-wrapper .cta-box .cta-image img {
     margin-bottom: 30px;
   }
 }
 
-.services .cta-wrapper .cta-box .cta-content {
+.programs .cta-wrapper .cta-box .cta-content {
   position: relative;
   z-index: 2;
 }
 
-.services .cta-wrapper .cta-box .cta-content h3 {
+.programs .cta-wrapper .cta-box .cta-content h3 {
   font-size: 1.8rem;
   font-weight: 700;
   margin-bottom: 15px;
   color: var(--contrast-color);
 }
 
-.services .cta-wrapper .cta-box .cta-content p {
+.programs .cta-wrapper .cta-box .cta-content p {
   color: color-mix(in srgb, var(--contrast-color), transparent 15%);
   margin-bottom: 25px;
   font-size: 1rem;
   line-height: 1.6;
 }
 
-.services .cta-wrapper .cta-box .cta-content .primary-btn {
+.programs .cta-wrapper .cta-box .cta-content .primary-btn {
   display: inline-block;
   background-color: var(--contrast-color);
   color: var(--accent-color);
@@ -1357,33 +1357,33 @@ section,
   transition: all 0.1s ease;
 }
 
-.services .cta-wrapper .cta-box .cta-content .primary-btn:hover {
+.programs .cta-wrapper .cta-box .cta-content .primary-btn:hover {
   transform: translateY(-3px);
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
 }
 
 @media (max-width: 991px) {
-  .services .cta-wrapper .cta-box .cta-content {
+  .programs .cta-wrapper .cta-box .cta-content {
     text-align: center;
   }
 }
 
 @media (max-width: 768px) {
-  .services {
+  .programs {
     padding: 60px 0;
   }
 
-  .services .services-container .service-item {
+  .programs .programs-container .service-item {
     flex-direction: column;
   }
 
-  .services .services-container .service-item .service-icon {
+  .programs .programs-container .service-item .service-icon {
     flex: 0 0 auto;
     height: 80px;
     width: 100%;
   }
 
-  .services .cta-wrapper .cta-box {
+  .programs .cta-wrapper .cta-box {
     padding: 30px 20px;
   }
 }
