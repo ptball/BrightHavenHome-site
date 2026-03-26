@@ -1165,6 +1165,7 @@ section,
   transition: 0.1s;
   display: grid;
   place-items: center;
+  align-items: center;
 }
 
 .about .content .cta-buttons .btn-get-started:hover {
